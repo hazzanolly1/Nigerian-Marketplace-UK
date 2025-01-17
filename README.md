@@ -1,6 +1,5 @@
 Nigerian-UK Marketplace
 A modern e-commerce platform designed to connect Nigerian vendors with UK customers, facilitating seamless international trade and shopping experiences.
-
 Table of Contents:
 1. Getting Started Prerequisites
 2. Installation
@@ -10,10 +9,12 @@ Table of Contents:
 6.Features
 7.Contributing
 8.License
+
 1. Getting Started Prerequisites
 Ensure you have the following installed on your machine:
 Node.js (v18 or higher)
 npm (v8 or higher)
+
 2. Installation
 Clone the repository and install dependencies:
 bash
@@ -22,12 +23,14 @@ Edit
 git clone <repository-url>
 cd nigerian-uk-marketplace
 npm install
+
 3. Development
 Run the development server to start building and testing the application:
 bash
 Copy
 Edit
 npm run dev
+
 4. Testing
 Run tests to ensure functionality:
 Unit Tests:
@@ -45,6 +48,7 @@ bash
 Copy
 Edit
 npm run test:coverage
+
 5. Architecture
 The platform uses a modern tech stack, ensuring scalability, maintainability, and a high-quality user experience:
 Frontend: React + TypeScript
@@ -54,6 +58,7 @@ Data Management: TanStack Query
 State Management: Zustand
 Forms: React Hook Form + Zod
 Styling: Tailwind CSS
+
 6. Features
 Core Features
 User Authentication: Secure login, registration, and account management.
@@ -65,6 +70,7 @@ Additional Features
 Internationalization (i18n): Multi-language support for global audiences.
 Accessibility: Designed with WCAG standards to ensure usability for all users.
 Analytics and Monitoring: Integrated tools for performance tracking and monitoring.
+
 7. Contributing
 We welcome contributions! Follow these steps to contribute:
 Fork the Repository:
@@ -87,6 +93,7 @@ Edit
 git push origin feature/your-feature-name
 Create a Pull Request:
 Submit your PR for review on the original repository.
+
 8. License
 This project is licensed under the MIT License.
 Feel free to use, modify, and distribute the application as per the license terms.
